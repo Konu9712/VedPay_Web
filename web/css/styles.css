@@ -182,9 +182,9 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #6DBB9F;
+	border: 1px solid #c5ff00;
 	border-radius: 32px;
-	background-color: #6DBB9F;
+	/* background-color: #c5ff00; */
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -428,7 +428,8 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #000000;
+	background: #6DBB9F!important;
+	padding-top: 0rem!important;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -436,8 +437,8 @@ input[type='checkbox'] {
 }
 
 .navbar .navbar-brand {
-	padding-top: 0.25rem;
-	padding-bottom: 0.25rem;
+	padding-top: 0.50rem!important;
+	padding-bottom: 0rem;
 }
 
 .navbar .logo-image img {
@@ -576,7 +577,7 @@ input[type='checkbox'] {
 /*****************/
 .header {
 	padding-top: 7rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/header-background.jfif') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/veeeeeeeeeeeeeeeeeeeeeee.png') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -594,6 +595,11 @@ input[type='checkbox'] {
 	color: #ffffff;
 }
 
+.header h3 .jay2{
+	font-size: 20px;
+	font-weight: 200;
+	font-family: sans-serif;
+}
 .header .btn-solid-lg:hover {
 	border: 1px solid #ffffff;
 	color: #ffffff;
@@ -632,6 +638,10 @@ input[type='checkbox'] {
 	color: #ffffff;
 }
 
+.jay{
+	position: relative;
+	bottom: 93px;
+}
 
 /*********************/
 /*     Details 1     */
@@ -827,8 +837,8 @@ input[type='checkbox'] {
 .basic-4 {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/mission-background.jpg') center center no-repeat;
-	background-size: cover;
+	background:url('../images/shopppp.jpg') center center no-repeat;
+	background-size: auto;
 	text-align: center;
 }
 
